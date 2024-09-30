@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div, hr{
+    margin-bottom: 1.5em;
+}
+
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%);
+}
+
+p{
+    font-size: 0.75rem;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 300;
+}
+
+.bold{
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-size: 1.625rem;
+    padding-top: 0.5em;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+h1, h2{
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+h4{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 0.5em;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.preparation ul{
+    color: hsl(332, 51%, 32%);
+}
+
+ul, ol {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+li{
+    padding-left: 1em;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+}
+
+.card{
+    background-color: #fff;
+    max-width: 33.5em;
+    padding: 1.5em;
+    border-radius: 15px;
+}
+
+img{
+    max-width: 30.5em;
+    border-radius: 10px;
+    padding-bottom: 0.2em;
+}
+
+.nutrition{
+    font-size: 0.75rem;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 300;
+}
+
+.nutrition p{
+    padding-bottom: 0.5em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.border{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td{
+    padding-bottom: 0.35em;
+    padding-top: 0.35em;
+    padding-right: 13em;
+    padding-left: 2em;
+}
+
+.value{
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+.last td{
+    padding-bottom: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 600px){
+    .card{
+        max-width: 20em;
+        padding: 1em;
+    }
+
+    img{
+        max-width: 18em;
+    }
+
+    td{
+        padding-bottom: 0.35em;
+        padding-top: 0.35em;
+        padding-right: 6.5em;
+        padding-left: 2em;
+    }
+}
+
+@media (max-width: 375px){
+    .card{
+        max-width: 375px;
+        border-radius: 0;
+    }
+
+    
+
+    img{
+        max-width: 375px;
+        border-radius: 0;
+        margin: -1em;
+    }
+}
